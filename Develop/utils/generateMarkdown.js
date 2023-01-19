@@ -46,6 +46,14 @@ function renderBadgeSection(answers) {
   }
 }
 
+function renderLicenseTOC(answers) {
+  if (answers.license !== "None") {
+    return "[license](#license)<br />";
+  } else {
+    return "";
+  }
+}
+
 //returns the license section of README
 function renderLicenseSection(answers) {
   if (answers.license !== "None") {
@@ -75,8 +83,8 @@ const generateMarkdown = (answers) => {
   
 [Authors](#authors) <br />
 [Installation](#installation)<br />
-[Usage](#usage)<br />
-[License](#license)<br />
+[Usage](#usage) <br />
+${renderLicenseTOC(answers)}
 [Contributing](#contributing)<br />
 [Tests](#tests)<br />
 [Questions](#questions)<br />
