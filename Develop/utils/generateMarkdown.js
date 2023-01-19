@@ -73,13 +73,13 @@ const generateMarkdown = (answers) => {
   
   ## Table Of Contents
   
-[Authors](#Authors) <br />
+[Authors](#authors) <br />
 [Installation](#installation)<br />
-[Usage](#Usage)<br />
-[License](#License)<br />
-[Contributing](#Contributing)<br />
-[Tests](#Tests)<br />
-[Questions](#Questions)<br />
+[Usage](#usage)<br />
+[License](#license)<br />
+[Contributing](#contributing)<br />
+[Tests](#tests)<br />
+[Questions](#questions)<br />
 
   ## Authors
   
@@ -108,7 +108,7 @@ const generateMarkdown = (answers) => {
   
   
   
-  ##Tests
+  ## Tests
   
   ${answers.instructions} 
   

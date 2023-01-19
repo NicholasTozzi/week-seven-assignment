@@ -1,7 +1,3 @@
-// TODO: Create a function to initialize app
-// function init() {}
-// init();
-
 //packages required
 const fs = require("fs");
 const inquirer = require("inquirer");
